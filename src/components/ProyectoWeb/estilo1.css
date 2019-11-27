@@ -1,11 +1,12 @@
 .Cuadrado {
+
     overflow-wrap: break-word;
     word-wrap: break-word;
     width: 100%;
     height: auto;
     color: white;
     font-size: 120%;
-    background: #140E51;
+    background: #3C9D9B;
     border-radius: 20px 20px 20px 20px;
     -moz-border-radius: 20px 20px 20px 20px;
     -webkit-border-radius: 20px 20px 20px 20px;
@@ -31,3 +32,19 @@
         word-break: break-all;
         overflow: hidden;
     }
+
+    .foto {
+        
+        width: 170px;
+        height: 170px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #5cb85c;
+        overflow: hidden;
+   }
+
+.grid1{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+}
