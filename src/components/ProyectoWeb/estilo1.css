@@ -1,0 +1,33 @@
+.Cuadrado {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 120%;
+    background: #140E51;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 10px 10px 31px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 31px 3px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 31px 3px rgba(0,0,0,0.75);
+    word-break: break-all;
+    }
+
+    .Centrar {
+        overflow-wrap: break-word;
+        margin-left: 1%;
+        word-break: break-all;
+        text-decoration: underline;
+        overflow: hidden;
+    }
+
+    .Centrar1{
+        overflow-wrap: break-word;
+        margin-left: 1%;
+        margin-top: -1.5%;
+        word-break: break-all;
+        overflow: hidden;
+    }
